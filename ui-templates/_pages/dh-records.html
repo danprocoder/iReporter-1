@@ -37,24 +37,39 @@
   </header>
 
   <div id="form-container">
-    <div class="form-group">
-      <h1>Create Your Complaint</h1>
-      <div class="form">
-        <input type="text" name="topic" id="">
-        <textarea name="description" id="" cols="30" rows="10"></textarea>
-        <input type="text" name="location" id="">
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropdown-button">Type</button>
-          <div id="my-dropdown" class="dropdown-content">
-            <ul>
-              <li>Intervention</li>
-              <li>Red-Flag</li>
-            </ul>
-          </div>
-        </div>
+    <h1>Create Your Complaint</h1>
+  
+    <div class="form-input">
+      <label>
+        <input type="text" name="" id="" required> <span class="placeholder">Topic of Issue</span>
+      </label>
+    </div>
+    
+    <div class="form-input">
+      <label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <span class="placeholder">Describe your issue</span>
+      </label>
+    </div>
+    
+    <!-- <div class="form-input">
+      <label>
+        <input type="text" name="" id="" required> <span class="placeholder">Location</span>
+      </label>
+    </div> -->
+
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropdown-button">Type</button>
+      <div id="my-dropdown" class="dropdown-content">
+        <ul>
+          <li>Intervention</li>
+          <li>Red-Flag</li>
+        </ul>
       </div>
     </div>
+  
   </div>
+  
 
   <script src="../js/dh-records.js"></script>
 </body>
