@@ -24,7 +24,6 @@
     <div class="search-area">
       <i class="fas fa-search"></i> <input type="text" name="" id="">
     </div>
-
     <div class="user-area">
       <!-- <a href="#">HOME</a> -->
       <a href="#"><i class="fa fa-plus"></i></a>
@@ -36,5 +35,27 @@
       </a> -->
     </div>
   </header>
+
+  <div id="form-container">
+    <div class="form-group">
+      <h1>Create Your Complaint</h1>
+      <div class="form">
+        <input type="text" name="topic" id="">
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+        <input type="text" name="location" id="">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropdown-button">Type</button>
+          <div id="my-dropdown" class="dropdown-content">
+            <ul>
+              <li>Intervention</li>
+              <li>Red-Flag</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/dh-records.js"></script>
 </body>
 </html>
